@@ -14,6 +14,31 @@
       "name":"Super Admin"
     }
   },
+  "menu":{
+    "code":0,
+    "data":[
+        {
+          path: '/testIndex',
+          component: 'Layout',
+          name: 'TestIndex',
+          meta: { title: '多级菜单测试', icon: 'link' },
+          children: [
+            {
+              path: 'firstMenu',
+              name: 'FirstMenu',
+              component: '/test/firstMenu',
+              meta: { title: '第一个菜单', icon: 'table' }
+            },
+            {
+              path: 'secondMenu',
+              name: 'SecondMenu',
+              component: '/test/secondMenu',
+              meta: { title: '第二个菜单', icon: 'tree' }
+            }
+          ]
+        }
+      ]
+  },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
