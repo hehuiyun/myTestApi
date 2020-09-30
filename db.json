@@ -6,7 +6,7 @@
     }
   },
   "info":{
-    "code":0,
+    "code":20000,
     "data":{
       "roles":["admin"],
       "introduction":"I am a super administrator",
