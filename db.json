@@ -18,22 +18,18 @@
     "code":0,
     "data":[
         {
-          path: '/testIndex',
-          component: 'Layout',
-          name: 'TestIndex',
-          meta: { title: '多级菜单测试', icon: 'link' },
-          children: [
+          "path": "/testIndex",
+          "component": "Layout",
+          "name": "TestIndex",
+          "title": "多级菜单测试"
+          "icon": "link",
+          "children": [
             {
-              path: 'firstMenu',
-              name: 'FirstMenu',
-              component: '/test/firstMenu',
-              meta: { title: '第一个菜单', icon: 'table' }
-            },
-            {
-              path: 'secondMenu',
-              name: 'SecondMenu',
-              component: '/test/secondMenu',
-              meta: { title: '第二个菜单', icon: 'tree' }
+              "path": "firstMenu",
+              "name": "FirstMenu",
+              "component": "/test/firstMenu",
+              "title": "第一个菜单", 
+              "icon": "table"
             }
           ]
         }
