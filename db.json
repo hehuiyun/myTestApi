@@ -59,7 +59,6 @@
       "deptName": "磊哥科技",
       "sort": 0,
       "leader": 1,
-      "params": "",
       "children": [
         {
           "deptId": 8,
@@ -68,7 +67,6 @@
           "deptName": "运维部",
           "sort": 0,
           "leader": 0,
-          "params": "",
           "children": [
             {
               "deptId": 24,
@@ -77,29 +75,6 @@
               "deptName": "adsd",
               "sort": 0,
               "leader": 7,
-              "phone": "",
-              "email": "",
-              "status": "0",
-              "createBy": "",
-              "updateBy": "",
-              "params": "",
-              "children": [],
-              "create_time": "0001-01-01T00:00:00Z",
-              "update_time": "0001-01-01T00:00:00Z"
-            },
-            {
-              "deptId": 27,
-              "parentId": 8,
-              "deptPath": "/0/1/8/27",
-              "deptName": "123",
-              "sort": 0,
-              "leader": 9,
-              "phone": "",
-              "email": "",
-              "status": "0",
-              "createBy": "",
-              "updateBy": "",
-              "params": "",
               "children": [],
               "create_time": "0001-01-01T00:00:00Z",
               "update_time": "0001-01-01T00:00:00Z"
@@ -111,31 +86,6 @@
       ],
       "create_time": "2020-07-18T02:58:29+08:00",
       "update_time": "2020-07-23T14:17:26+08:00"
-    },
-    {
-      "deptId": 17,
-      "parentId": 0,
-      "deptPath": "/0/17",
-      "deptName": "dsd",
-      "sort": 0,
-      "leader": 1,
-      "params": "",
-      "children": [
-        {
-          "deptId": 18,
-          "parentId": 17,
-          "deptPath": "/0/17/18",
-          "deptName": "ew",
-          "sort": 2,
-          "leader": 2,
-          "params": "",
-          "children": [],
-          "create_time": "0001-01-01T00:00:00Z",
-          "update_time": "0001-01-01T00:00:00Z"
-        }
-      ],
-      "create_time": "2020-08-28T13:50:50+08:00",
-      "update_time": "2020-08-28T13:50:50+08:00"
     }
   ],
   "msg": ""
