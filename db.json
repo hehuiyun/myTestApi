@@ -30,6 +30,13 @@
               "component": "/test/firstMenu",
               "title": "第一个菜单", 
               "icon": "table"
+            },
+            {
+              "path": "secondMenu",
+              "name": "SecondMenu",
+              "component": "/test/secondMenu",
+              "title": "第二个菜单", 
+              "icon": "table"
             }
           ]
         }
